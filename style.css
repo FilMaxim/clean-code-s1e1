@@ -40,10 +40,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-.list-item, .todo {
+.list-item,
+.todo {
   list-style: none;
 }
-input,.btn{
+input,
+.btn{
   outline: none;
 }
 .btn {
@@ -117,7 +119,7 @@ input,.btn{
   font-size: 18px;
   width: 226px;
 }
-.list-item >    .task[type="text"] {
+.list-item > .task[type="text"] {
   width: 226px;
 }
 .btn-img {
