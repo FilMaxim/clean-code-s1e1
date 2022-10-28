@@ -1,17 +1,17 @@
 /* Basic Style */
-.body {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
-.header {
+.header-matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
   padding-bottom: 30px;
 }
-.header__name {
+.header-name {
   display: none;
 }
 .info-photo {
@@ -69,8 +69,8 @@ input,
 }
 
 /* Heading */
-.todo,
-#top-section-for-adding-element-to-list [for="new-task"] {
+.todo-name,
+.top-section-for-adding-element-to-list {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -112,11 +112,9 @@ input,
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.list-item > * {
   vertical-align: middle;
 }
-.list-item > input[type="checkbox"] {
+input[type="checkbox"] {
   margin: 0 10px;
 }
 .list-item > .task {
