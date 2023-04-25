@@ -1,9 +1,11 @@
 /* Basic Style */
+
 .page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header-matrix {
   width: 500px;
   margin: 0 auto;
@@ -11,12 +13,15 @@
   text-align: right;
   padding-bottom: 30px;
 }
+
 .header-name {
   display: none;
 }
+
 .info-photo {
   width: 100%;
 }
+
 .more-inf {
   font-family: fantasy, cursive;
 }
@@ -34,27 +39,33 @@
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .task-row-wrapper {
   display: flex;
   margin: 16px 0;
 }
+
 ul {
   margin: 0;
   padding: 0px;
 }
+
 .list-item,
 .todo {
   list-style: none;
 }
+
 input,
 .btn{
   outline: none;
 }
+
 .btn {
   background: none;
   border: 0px;
@@ -64,13 +75,15 @@ input,
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .btn:hover {
   color: #3a3a3a;
 }
 
 /* Heading */
+
 .todo-name,
-.top-section-for-adding-element-to-list {
+.todo-list__section {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -79,6 +92,7 @@ input,
   margin: 0;
   text-transform: uppercase;
 }
+
 .task[type="text"] {
   margin: 0;
   font-size: 18px;
@@ -91,20 +105,24 @@ input,
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task[type="text"]:focus {
   color: #333;
 }
 
 /* New Task */
+
 .new-item[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
+
 #new-task {
   width: 318px;
 }
 
 /* Task list */
+
 .list-item {
   overflow: hidden;
   padding: 20px 0;
@@ -114,41 +132,52 @@ input,
   align-items: center;
   vertical-align: middle;
 }
+
 input[type="checkbox"] {
   margin: 0 10px;
 }
+
 .list-item > .task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .list-item > .task[type="text"] {
   width: 226px;
 }
+
 .btn-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .btn-img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-#completed-tasks .task-hidden {
+
+.list .task {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
+
 .list-item .task[type=text] {
-  display: none
+  display: none;
+  text-decoration: none;
+  color: inherit;
 }
+
 .editmode .task[type=text] {
   display: inline-block;
   width: 224px;
 }
+
 .editmode .task {
   display: none;
 }
