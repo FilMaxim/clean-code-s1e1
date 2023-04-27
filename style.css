@@ -114,12 +114,7 @@ input,
 
 /* New Task */
 
-.new-item[for="new-task"] {
-  display: block;
-  margin: 0 0 20px;
-}
-
-#new-task {
+.input-add {
   width: 318px;
 }
 
